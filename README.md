@@ -19,3 +19,6 @@ There are several activation functions at this moment.
 * ReLU
 * LeakyReLU
 * tanh
+
+# Performance
+I really don't want to talk about it because now NeuroChan in 77 time slower then Keras.
