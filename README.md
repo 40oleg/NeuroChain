@@ -21,4 +21,4 @@ There are several activation functions at this moment.
 * tanh
 
 # Performance
-I really don't want to talk about it because now NeuroChan in 77 time slower then Keras.
+I really don't want to talk about it because now NeuroChan 77 timeы slower then Keras.
