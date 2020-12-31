@@ -15,7 +15,7 @@ net.AddLayer(new Layer(2, "sigmoid"));
 
 # Activation Functions
 There are several activation functions at this moment.
-*sigmoid
-*ReLU
-*LeakyReLU
-*tanh
+* [sigmoid]
+* [ReLU]
+* [LeakyReLU]
+* [tanh]
