@@ -17,8 +17,8 @@ net.AddLayer(new Layer(2, "sigmoid"));
 There are several activation functions at this moment.
 * sigmoid
 * ReLU
-* LeakyReLU
-* tanh
+* Leaky ReLU
+* hyperbolic tangent
 
 # Performance
 Now NeuroChan 77 times slower then Keras.
