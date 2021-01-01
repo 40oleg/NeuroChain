@@ -26,7 +26,12 @@ There are several activation functions at this moment.
 # Example of simplest neural network
 ```ts
 //dataset
-let train = [[[0,0],[0]],[[0,1],[1]],[[1,0],[1]],[[1,1],[0]]];
+let train = [
+  [[0,0],[0]],
+  [[0,1],[1]],
+  [[1,0],[1]],
+  [[1,1],[0]]
+];
 
 //making instance of dataset
 let net: Net = new Net();
