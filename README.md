@@ -19,6 +19,35 @@ There are several activation functions at this moment.
 * ReLU
 * Leaky ReLU
 * hyperbolic tangent
+* softplus
+* softsign
+* argtg
+
+# Example of simplest neural network
+```ts
+//dataset
+let train = [[[0,0],[0]],[[0,1],[1]],[[1,0],[1]],[[1,1],[0]]];
+
+//making instance of dataset
+let net: Net = new Net();
+
+//adding layers
+net.AddLayer(new Layer(2, "none", 0));
+net.AddLayer(new Layer(3, "tanh", 0));
+net.AddLayer(new Layer(1, "sigmoid", 0));
+
+//setting train and test sample
+net.SetTrainSample(train);
+
+//training net
+net.Train(100000, 0.1, 0.01);
+
+//check result
+console.log(net.Run([0,0])); //0.0468798408364958
+console.log(net.Run([0,1])); //0.9355276250031281
+console.log(net.Run([1,0])); //0.9339797152023931
+console.log(net.Run([1,1])); //0.0675244824863299
+```
 
 # Performance
 Now NeuroChan 77 times slower then Keras.
