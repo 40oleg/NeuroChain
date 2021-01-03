@@ -3,7 +3,7 @@ Simple neural-library which let you create simple fully-connected neural network
 
 # Install
 ```cmd
-npm install neurochan@
+npm install neurochan
 ```
 
 # Connect
