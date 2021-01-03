@@ -55,7 +55,7 @@ console.log(net.Run([1,1])); //0.0675244824863299
 ```
 
 # Performance
-You should use NeuroChan only educational purposes.
+You should use NeuroChan only educational purposes because of speed of learning and lack of usefull technologies.
 
 # Methods
 ```js
@@ -71,7 +71,8 @@ net.Augmentaion(sample, coef); //sample augmentaion (DOESNT'T SUPPORT)
 net.Train(count_of_repetitions, starting_learing_rate, ending_learning_rate);
 // count_of_repetitions - value which have to be more then train-sample 3-5 times
 
-net.Test(repetitions); // evaluation method which prints quality of learning, before using this method you have to set test sample with method .SetTestSample(test_sample)
+net.Test(repetitions); // evaluation method which prints quality of learning
+// before using this method you have to set test sample with method .SetTestSample(test_sample)
 // repetitions - count of examples used to define quality
 
 
