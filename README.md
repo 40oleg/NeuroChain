@@ -1,6 +1,17 @@
 # NeuroChan.js
 Simple neural-library which let you create simple fully-connected neural networks. Wrote on TypeScript and you can use it directly in Node.js.
 
+# Install
+```cmd
+npm install neurochan@
+```
+
+# Connect
+``js
+let { Net } = require('./node_modules/neurochan/Net');
+let { Layer } = require('./node_modules/neurochan/Layer');
+``
+
 # Using
 You just have to create instance of Net and add some layers to it. The first argument is count of neurons in a layer you added and the second is an activation function. The first layer doesn't have any activation function because it isn't necessary, but you have to state this explicity.
 Next you train net and can check quality, but now you can't save weights, therefore you have to learn your net every time you want to use it.
