@@ -58,8 +58,10 @@ console.log(net.Run([1,1])); //0.0675244824863299
 You should use NeuroChan only educational purposes.
 
 # Methods
+```js
 net.Normalize(sample, min_value, max_value); // normalization input values
-sample - your dataset in the standart format (3D-array)
+```
+```js sample``` - your dataset in the standart format (3D-array)
 min_value - minimal value in the dataset
 max_value - maximal value in the dataset
 
