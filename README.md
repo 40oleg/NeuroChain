@@ -64,7 +64,7 @@ net.Normalize(sample, min_value, max_value); // normalization input values
 // min_value - minimal value in the dataset
 // max_value - maximal value in the dataset
 
-net.Augmentaion(sample, coef); //sample augmentaion (doesn't support)
+net.Augmentaion(sample, coef); //sample augmentaion (DOESNT'T SUPPORT)
 // sample - your dataset in the standart format (3D-array)
 // coef - augmentaion coefficient
 
