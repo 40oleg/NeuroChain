@@ -55,4 +55,17 @@ console.log(net.Run([1,1])); //0.0675244824863299
 ```
 
 # Performance
-Now NeuroChan 77 times slower then Keras.
+You should use NeuroChan only educational purposes.
+
+# Methods
+net.Normalize(sample, min_value, max_value); // normalization input values
+sample - your dataset in the standart format (3D-array)
+min_value - minimal value in the dataset
+max_value - maximal value in the dataset
+
+net.Augmentaion(sample, coef); //sample augmentaion (doesn't support)
+sample - your dataset in the standart format (3D-array)
+coef - augmentaion coefficient
+
+net.Train(count_of_repetitions, starting_learing_rate, ending_learning_rate);
+count_of_repetitions - value which have to be more then train-sample 3-5 times
