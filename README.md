@@ -45,7 +45,7 @@ net.AddLayer(new Layer(1, "sigmoid", 0));
 net.SetTrainSample(train);
 
 //training net
-net.Train(100000, 0.1, 0.01);
+net.Train(10000, 1, 1);
 
 //check result
 console.log(net.Run([0,0])); //0.0468798408364958
