@@ -7,10 +7,10 @@ npm install neurochan@
 ```
 
 # Connect
-``js
+```js
 let { Net } = require('./node_modules/neurochan/Net');
 let { Layer } = require('./node_modules/neurochan/Layer');
-``
+```
 
 # Using
 You just have to create instance of Net and add some layers to it. The first argument is count of neurons in a layer you added and the second is an activation function. The first layer doesn't have any activation function because it isn't necessary, but you have to state this explicity.
