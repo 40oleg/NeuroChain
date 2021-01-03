@@ -75,5 +75,10 @@ net.Test(repetitions); // evaluation method which prints quality of learning
 // before using this method you have to set test sample with method .SetTestSample(test_sample)
 // repetitions - count of examples used to define quality
 
+net.SetTrainSample(sample); // set train dataset
 
+net.SetTestSample(sample); // set test dataset
+
+net.AddLayer(Layer); // adding layer
+// Layer is an object you import from library
 ```
