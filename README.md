@@ -50,19 +50,19 @@ let net: Net = new Net();
 //adding layers
 net.AddLayer(new Layer(2, "none", 0));
 net.AddLayer(new Layer(3, "tanh", 0));
-net.AddLayer(new Layer(1, "sigmoid", 0));
+net.AddLayer(new Layer(1, "tanh", 0));
 
 //setting train and test sample
 net.SetTrainSample(train);
 
 //training net
-net.Train(10000, 1, 1);
+net.Train(2500000, 1, 0.1);
 
 //check result
-console.log(net.Run([0,0])); //0.0468798408364958
-console.log(net.Run([0,1])); //0.9355276250031281
-console.log(net.Run([1,0])); //0.9339797152023931
-console.log(net.Run([1,1])); //0.0675244824863299
+console.log(net.Run([0,0])); //0.008190680297392377
+console.log(net.Run([0,1])); //0.9673620088435199
+console.log(net.Run([1,0])); //0.9673148671177659
+console.log(net.Run([1,1])); //0.008177935725508057
 ```
 
 # Performance
