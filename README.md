@@ -1,4 +1,4 @@
-# NeuroChan.js
+# NeuroChain.js
 Simple neural-library which let you create simple fully-connected neural networks. Wrote on TypeScript and you can use it directly in Node.js.
 
 # Install
